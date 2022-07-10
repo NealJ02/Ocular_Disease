@@ -9,7 +9,7 @@ from sklearn.metrics import precision_recall_fscore_support
 
 torch.manual_seed(2022)
 
-wandb.init(project="NormalVSGlaucoma", entity="nealj06", name="normal_vs_cat_1_noweightdecay")
+wandb.init(project="NormalVSCat", entity="nealj06", name="normal_vs_cat_1_noweightdecay")
 wandb.config = {
   "learning_rate": 0.001,
   "epochs": 1,
